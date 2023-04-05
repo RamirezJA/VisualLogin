@@ -1,0 +1,15 @@
+.nav {
+  color: black;
+  border: 2px solid blue;
+  padding: 0 15px;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu li {
+  display: inline;
+  border: 2px solid red;
+}
