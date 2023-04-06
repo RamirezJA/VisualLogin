@@ -1,0 +1,28 @@
+.container {
+  margin-top: 4rem;
+  padding: 0 15px;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.box {
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: #6154f5;
+  color: #f2f2f2;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

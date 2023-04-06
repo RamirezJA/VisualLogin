@@ -1,4 +1,3 @@
-import React from "react"
 import styles from "../styles/navbar.module.css"
 import Link from "next/link"
 export default function navbar() {

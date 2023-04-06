@@ -1,5 +1,8 @@
-import React from "react"
-
+import styles from "../styles/footer.module.css"
 export default function footer() {
-  return <div>footer</div>
+  return (
+    <footer className={styles.footer}>
+      <div>Made with ❤️ in Los Angeles</div>
+    </footer>
+  )
 }
