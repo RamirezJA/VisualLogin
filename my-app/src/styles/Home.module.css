@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+}
+.description {
+  display: flex;
+}
+.title {
+  color: black;
+}
+.center {
+  display: flex;
+}
+.prompInput {
+  color: black;
+}
+.button {
+  color: red;
+}
+.response {
+  color: black;
+}
