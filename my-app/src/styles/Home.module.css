@@ -1,5 +1,8 @@
 .main {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .description {
   display: flex;
@@ -9,12 +12,16 @@
 }
 .center {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .prompInput {
   color: black;
 }
 .button {
-  color: red;
+  color: black;
+  margin-top: 10px;
 }
 .response {
   color: black;

@@ -1,4 +1,6 @@
 export default async (req, res) => {
+  //console.log(req.body.prompt)
+
   if (req.body.prompt !== undefined) {
     const options = {
       method: "POST",
@@ -7,14 +9,20 @@ export default async (req, res) => {
         "X-RapidAPI-Key": "234a6cbe3emshe13fc43e8c18567p1dc548jsn1792f2f2506b",
         "X-RapidAPI-Host": "openai80.p.rapidapi.com",
       },
-      body: '{"model":"gpt-3.5-turbo","messages":[{"role":"user","content":`${req.body.prompt}`}]}',
+      body: `{"model":"gpt-3.5-turbo","messages":[{"role":"user","content":"${req.body.prompt}"}]}`,
     }
+
+    console.log(req.body.prompt)
     const response = await fetch(
       "https://openai80.p.rapidapi.com/chat/completions",
       options
     )
       .then((response) => response.json())
-      .then((response) => console.log(response.choices[0].message.content))
+      //.then((response) => console.log(response.choices[0].message.content))
+      .then((response) =>
+        res.status(200).json({ text: `${response.choices[0].message.content}` })
+      )
+
       .catch((err) => console.error(err))
     res.end()
   } else {
