@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 2px solid #6154f5;
 }
 .description {
   display: flex;
@@ -20,9 +21,19 @@
   color: black;
 }
 .button {
-  color: black;
-  margin-top: 10px;
+  background-color: #6154f5;
+  color: #f2f2f2;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: black solid;
 }
 .response {
   color: black;
+  border: 2px solid #6154f5;
+  margin: 10px;
 }
