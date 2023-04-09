@@ -43,10 +43,10 @@ export default function Home() {
         <div className={styles.center}>
           <textarea
             className={styles.promptInput}
-            placeholder='Enter a prompt'
+            placeholder='Write something here'
             onChange={(e) => setPrompt(e.target.value)}
-            row='5'
-            cols='50'
+            rows={20}
+            cols={105}
           />
           <button className={styles.button} onClick={getResponseFromOpenAI}>
             Get Response

@@ -19,9 +19,20 @@
   align-items: center;
   width: 100%;
 }
-.prompInput {
-  color: black;
-  border: 2px solid #6154f5;
+.promptInput {
+  resize: vertical;
+  box-shadow: 12px 12px 12px 1px rgba(0, 0, 255, 0.2);
+  border: 2px solid black;
+  padding: 10px;
+  font-weight: bold;
+}
+.promptInput:focus {
+  /* ...existing styles */
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  /* ...existing styles */
+  transition: 180ms box-shadow ease-in-out;
+  outline: 3px solid transparent;
+  border: 4px solid black;
 }
 .button {
   background-color: #6154f5;
