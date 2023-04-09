@@ -43,7 +43,7 @@ export default function Home() {
         <div className={styles.center}>
           <textarea
             className={styles.promptInput}
-            placeholder='Write something here'
+            placeholder='Ask the AI anything'
             onChange={(e) => setPrompt(e.target.value)}
             rows={20}
             cols={105}

@@ -4,7 +4,7 @@ export default function chatbox() {
   return (
     <div className={styles.container}>
       <div className={styles.title}>
-        Upgrade your writing game: Upload your essay and get feedback! 🧘🏽
+        Unleash the power of AI with lightning-fast NextJS integration! 🧘🏽
       </div>
       {/*
       <div className={styles.box}>

@@ -6,7 +6,7 @@ export default function navbar() {
       <ul className={styles.menu}>
         <li>
           <Link className={styles.link} href='/'>
-            Ai Grader
+            Next.js & OpenAI
           </Link>
         </li>
         <li>
