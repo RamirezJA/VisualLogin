@@ -6,9 +6,11 @@ export default function chatbox() {
       <div className={styles.title}>
         Upgrade your writing game: Upload your essay and get feedback! 🧘🏽
       </div>
+      {/*
       <div className={styles.box}>
         <div className={styles.btn}>Upload</div>
       </div>
+  */}
     </div>
   )
 }

@@ -3,7 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid #6154f5;
+  margin-top: 2rem;
+  padding: 0 15px;
 }
 .description {
   display: flex;
@@ -16,9 +17,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 .prompInput {
   color: black;
+  border: 2px solid #6154f5;
 }
 .button {
   background-color: #6154f5;
@@ -28,12 +31,13 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin-top: 2rem;
   cursor: pointer;
   border: black solid;
 }
 .response {
   color: black;
   border: 2px solid #6154f5;
-  margin: 10px;
+  margin-top: 2rem;
+  padding: 0 15px;
 }
