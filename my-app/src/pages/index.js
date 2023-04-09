@@ -1,7 +1,7 @@
 import Head from "next/head"
 import { useState, useEffect } from "react"
 import styles from "@/styles/Home.module.css"
-
+//working
 export default function Home() {
   const [prompt, setPrompt] = useState("")
   const [isLoading, setIsLoading] = useState(false)
