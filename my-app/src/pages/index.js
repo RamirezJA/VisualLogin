@@ -34,12 +34,6 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <main className={styles.main}>
-        {/* 
-        <div className={styles.description}>
-          <h1 className={styles.title}>Next.js & OpenAI Sample Application</h1>
-        </div>
-        */}
-
         <div className={styles.center}>
           <textarea
             className={styles.promptInput}
