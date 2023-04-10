@@ -40,7 +40,7 @@ export default function Home() {
             placeholder='Ask the AI anything'
             onChange={(e) => setPrompt(e.target.value)}
             rows={7}
-            cols={30}
+            cols={35}
           />
           <button className={styles.button} onClick={getResponseFromOpenAI}>
             Get Response
