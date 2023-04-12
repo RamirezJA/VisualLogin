@@ -6,7 +6,7 @@ export default async (req, res) => {
       method: "POST",
       headers: {
         "content-type": "application/json",
-        "X-RapidAPI-Key": process.env.RAPID_API_KEY,
+        "X-RapidAPI-Key": process.env.NEXT_PUBLIC_RAPID_API_KEY,
         "X-RapidAPI-Host": "openai80.p.rapidapi.com",
       },
       body: `{"model":"gpt-3.5-turbo","messages":[{"role":"user","content":"${req.body.prompt}"}]}`,
